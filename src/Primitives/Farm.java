@@ -12,7 +12,7 @@ public class Farm {
         int cow$ = 2345;
         int totalLegs = chicken*2 + cow*4;
         double TotalCaw$ = cow*cow$;
-        double TotalChickens$ = chickens*chickens$;
+        double TotalChickens$ = chicken*chickens$;
         System.out.println("Total Legs: " + totalLegs);
         System.out.println("Total cost of animals =" + TotalCaw$ + TotalChickens$ );
     }
